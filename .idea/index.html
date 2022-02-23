@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="ui borderless menu topmenu">
+  <div class="ui container">
+    <div class="left menu">
+      <a class="fitted left item"><i class="ui large bars icon"></i></a>
+      <a class="fitted left item"><i class="ui large question circle outline icon"></i></a>
+    </div>
+    <h1 class="header center aligned item">WORDLE</h1>
+    <div class="right menu">
+      <a class="fitted right item"><i class="ui large chart bar icon"></i></a>
+      <a class="fitted right item"><i class="ui large cog icon"></i></a>
+    </div>
+  </div>
+</div>
+
+<div class="ui grid centered board">
+
+  <div class="word row">
+    <div class="wrong guess column"><h1 class="letter">P</h1></div>
+    <div class="wrong guess column"><h1 class="letter">L</h1></div>
+    <div class="almost guess column"><h1 class="letter">A</h1></div>
+    <div class="almost guess column"><h1 class="letter">Y</h1></div>
+    <div class="wrong guess column"><h1 class="letter">S</h1></div>
+  </div>
+
+  <div class="word row">
+    <div class="almost guess column"><h1 class="letter">A</h1></div>
+    <div class="wrong guess column"><h1 class="letter">F</h1></div>
+    <div class="wrong guess column"><h1 class="letter">T</h1></div>
+    <div class="almost guess column"><h1 class="letter">E</h1></div>
+    <div class="wrong guess column"><h1 class="letter">R</h1></div>
+  </div>
+
+  <div class="word row">
+    <div class="wrong guess column"><h1 class="letter">U</h1></div>
+    <div class="wrong guess column"><h1 class="letter">S</h1></div>
+    <div class="wrong guess column"><h1 class="letter">I</h1></div>
+    <div class="wrong guess column"><h1 class="letter">N</h1></div>
+    <div class="wrong guess column"><h1 class="letter">G</h1></div>
+  </div>
+
+  <div class="word row">
+    <div class="wrong guess column"><h1 class="letter">R</h1></div>
+    <div class="almost guess column"><h1 class="letter">E</h1></div>
+    <div class="almost guess column"><h1 class="letter">A</h1></div>
+    <div class="wrong guess column"><h1 class="letter">C</h1></div>
+    <div class="wrong guess column"><h1 class="letter">T</h1></div>
+  </div>
+
+  <div class="word row">
+    <div class="correct guess column"><h1 class="letter">M</h1></div>
+    <div class="correct guess column"><h1 class="letter">A</h1></div>
+    <div class="correct guess column"><h1 class="letter">Y</h1></div>
+    <div class="correct guess column"><h1 class="letter">B</h1></div>
+    <div class="correct guess column"><h1 class="letter">E</h1></div>
+  </div>
+
+  <div class="word row">
+    <div class="emptyicon column"></div>
+    <div class="emptyicon column"></div>
+    <div class="emptyicon column"></div>
+    <div class="emptyicon column"></div>
+    <div class="emptyicon column"></div>
+  </div>
+
+</div>
+
+<div class="ui container">
+  <div class="ui grid centered board">
+    <div class="word row">
+      <button class="ui button">Q</button>
+      <button class="ui button">W</button>
+      <button class="correct ui button">E</button>
+      <button class="wrong ui button">R</button>
+      <button class="wrong ui button">T</button>
+      <button class="correct ui button">Y</button>
+      <button class="wrong ui button">U</button>
+      <button class="wrong ui button">I</button>
+      <button class="ui button">O</button>
+      <button class="wrong ui button">P</button>
+    </div>
+
+    <div class="word row">
+      <button class="correct ui button">A</button>
+      <button class="wrong ui button">S</button>
+      <button class="ui button">D</button>
+      <button class="wrong ui button">F</button>
+      <button class="wrong ui button">G</button>
+      <button class="ui button">H</button>
+      <button class="ui button">J</button>
+      <button class="ui button">K</button>
+      <button class="wrong ui button">L</button>
+    </div>
+
+    <div class="word row">
+      <button class="ui button">ENTER</button>
+      <button class="ui button">Z</button>
+      <button class="ui button">X</button>
+      <button class="wrong ui button">C</button>
+      <button class="ui button">V</button>
+      <button class="correct ui button">B</button>
+      <button class="wrong ui button">N</button>
+      <button class="correct ui button">M</button>
+      <button class="ui button"><i class="large window close outline icon"></i></button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
